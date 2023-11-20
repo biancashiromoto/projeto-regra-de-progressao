@@ -42,9 +42,14 @@ public class App {
     String formattedFinalGrade = String.format("%.1f", finalGrade).replace(',', '.');
 
     if (finalGrade >= 85) {
-      System.out.printf("Parabéns! Você alcançou %s%%! E temos o prazer de informar que você obteve aprovação!", formattedFinalGrade);
+      System.out.printf(
+          "Parabéns! Você alcançou %s%%! E temos o prazer de informar que você obteve aprovação!",
+          formattedFinalGrade);
     } else {
-      System.out.printf("Lamentamos informar que, com base na sua pontuação alcançada neste período, %s%%, você não atingiu a pontuação mínima necessária para sua aprovação.", formattedFinalGrade);
+      System.out.printf(
+          "Lamentamos informar que, com base na sua pontuação alcançada neste período,"
+          + " %s%%, você não atingiu a pontuação mínima necessária para sua aprovação.",
+          formattedFinalGrade);
     }
   }
 }
