@@ -18,10 +18,11 @@ public class App {
     scanner.nextLine();
 
     int totalWeights = 0;
+    String name;
 
     for (int i = 1; i <= activities; i += 1) {
       System.out.printf("Digite o nome da atividade %s: ", i);
-      String name = scanner.nextLine();
+      name = scanner.nextLine();
       System.out.printf("Digite o peso da atividade %s: ", i);
       int weight = scanner.nextInt();
       totalWeights += weight;
