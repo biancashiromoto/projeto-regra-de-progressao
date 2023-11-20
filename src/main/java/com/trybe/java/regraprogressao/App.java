@@ -22,6 +22,9 @@ public class App {
       System.out.printf("Digite o peso da atividade %s: ", i);
       int weight = scanner.nextInt();
       scanner.nextLine();
+      System.out.printf("Digite a nota obtida para %s: ", name);
+      int grade = scanner.nextInt();
+      scanner.nextLine();
     }
   }
 }
